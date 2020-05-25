@@ -14,14 +14,31 @@ height: 100px;
 
 }
 
-nav [class*="col-"], footer [class*="col-"] {
+nav, footer {
 background-color: darkblue;
 }
 
-#jumbotron [class*="col-"], #about [class*="col-"] {
+#jumbotron, #about {
 background-color: aqua;
 }
 
-#portfolio [class*="col-"], #contact [class*="col-"] {
+#portfolio , #contact {
 background-color: white;
+}
+
+
+@media all and (min-width:992px){
+
+nav, section, footer {
+  padding: 0 5%;
+}
+
+}
+
+@media all and (min-width:1200px){
+
+nav, section, footer {
+  padding: 0 15%;
+}
+
 }
