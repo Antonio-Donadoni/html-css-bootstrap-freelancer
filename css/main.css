@@ -14,14 +14,18 @@ height: 100px;
 
 }
 
-nav, footer {
-background-color: darkblue;
+nav, .credits {
+background-color: #2d3e50;
 }
 
 #jumbotron, #about {
-background-color: aqua;
+background-color: #1bbc9b;
 }
 
 #portfolio , #contact {
 background-color: white;
+}
+
+ footer {
+  background-color: #44627f;
 }
