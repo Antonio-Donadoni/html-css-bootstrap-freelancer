@@ -25,20 +25,3 @@ background-color: aqua;
 #portfolio , #contact {
 background-color: white;
 }
-
-
-@media all and (min-width:992px){
-
-nav, section, footer {
-  padding: 0 5%;
-}
-
-}
-
-@media all and (min-width:1200px){
-
-nav, section, footer {
-  padding: 0 15%;
-}
-
-}
