@@ -67,7 +67,7 @@
           <div class="row">
 
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#cabin-modal">
                 <img src="img/cabin.png" alt="cabin">
                 <div class="layover">
                 </div>
@@ -77,8 +77,8 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
-                <img src="img/cake.png" alt="cake">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#cake-modal">
+                <img src="img/cake.png" alt="cake" >
                 <div class="layover">
                 </div>
                 <div class="plus">
@@ -87,7 +87,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#circus-modal">
                 <img src="img/circus.png" alt="circus">
                 <div class="layover">
                 </div>
@@ -97,7 +97,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#game-modal" >
                 <img src="img/game.png" alt="game">
                 <div class="layover">
                 </div>
@@ -107,7 +107,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#safe-modal">
                 <img src="img/safe.png" alt="safe">
                 <div class="layover">
                 </div>
@@ -117,8 +117,8 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="portfolio-wrapper">
-                <img src="img/submarine.png" alt="submarine">
+              <div class="portfolio-wrapper" data-toggle="modal" data-target="#submarine-modal">
+                <img src="img/submarine.png" alt="submarine" >
                 <div class="layover">
                 </div>
                 <div class="plus">
@@ -228,5 +228,126 @@
         </div>
       </section>
     </footer>
+    <!-- MODALS: SI METTONO QUI? -->
+    <div class="modal fade" id="cabin-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">LOG CABIN</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/cabin.png" alt="cabin">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cake-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">TASTY CAKE</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/cake.png" alt="cake">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="circus-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">CIRCUS TENT</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/circus.png" alt="circus">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="game-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">CONTROLLER</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/game.png" alt="game">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="safe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">LOCKED SAFE</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/safe.png" alt="safe">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="submarine-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">SUBMARINE</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="img/submarine.png" alt="submarine">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i>  Close Window</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

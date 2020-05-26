@@ -282,3 +282,42 @@ footer li {
     font-size: 1.2rem;
   }
 }
+/* ********************* CSS MODALS ********************* */
+.modal {
+  text-align: center;
+}
+
+.modal img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 2.5rem;
+}
+.modal-footer {
+  text-align: center;
+}
+
+.modal-footer button {
+  background-color: #1bbc9b;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 12px;
+  transition: all 0.3s;
+}
+
+.modal-footer button:hover {
+  color: #fff;
+ background-color: #159a80;
+ border-color: #148f77;
+
+}
+
+.modal-header {
+  position: relative;
+}
+.modal .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #1bbc9b;
+  opacity: 1;
+}
