@@ -207,3 +207,12 @@ footer li {
 .credits {
   background-color: #1a252f;
 }
+
+@media all and (max-width:768px) {
+
+  .wrapper {
+     padding:20px 0;}
+  h1 { font-size: 2.7rem;}
+  h2 { font-size: 2rem;}
+  p, span {font-size: 1.2rem;}
+}
