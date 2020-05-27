@@ -197,7 +197,6 @@ transition: all 0.3s;
    border: none;
    resize: none;
    box-shadow: none;
-   border-radius: 0;
    padding-left: 0;
    font-size: 1rem;
  }
@@ -262,26 +261,7 @@ footer li {
 .credits {
   background-color: #1a252f;
 }
-/* ***************************** MEDIA QUERY **************************** */
 
-@media all and (max-width:992px) {
-
-  .wrapper {
-     padding:20px 0;
-   }
-
-  h1 {
-    font-size: 2.7rem;
-  }
-
-  h2 {
-     font-size: 2rem;
-   }
-
-  p, span {
-    font-size: 1.2rem;
-  }
-}
 /* ********************* CSS MODALS ********************* */
 .modal {
   text-align: center;
@@ -320,4 +300,28 @@ footer li {
   right: 10px;
   color: #1bbc9b;
   opacity: 1;
+}
+
+/* ***************************** MEDIA QUERY **************************** */
+
+@media all and (max-width:992px) {
+
+  .wrapper {
+     padding:20px 0;
+   }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  h2 {
+     font-size: 2rem;
+   }
+
+  p, span {
+    font-size: 1.2rem;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 1.2rem;
+  }
 }
