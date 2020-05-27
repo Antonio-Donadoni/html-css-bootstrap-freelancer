@@ -85,13 +85,15 @@ background-color: #2c3e50;
 }
 
 .button-menu {
+  position: relative;
   float: right;
   margin: 12px 10px 10px 10px;
   padding: 5px 10px;
   font-size: 1.2rem;
   display: none;
-  background-color: #1bbc9b;
+  background-color: #1bb49b;
   color: #fff;
+  transition: all 0.3s;
 }
 
 .button-menu:hover {
@@ -99,10 +101,33 @@ background-color: #2c3e50;
   background-color: #fff;
 
 }
-.button-menu:hover a{
+.button-menu:hover i{
   color: #2c3e50;
 }
 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:40px;
+  right:0;
+  min-width: 200px;
+  background-color: #2c3e50;
+  z-index: 1;
+  border: 2px solid #1a252f;
+}
+
+  .dropdown-content a {
+    padding: 10px ;
+    display: block;
+  }
+
+  .button-menu:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover {
+    color: #1bbc9b;
+  }
 /* CSS JUMBOTRON */
 
 #jumbotron, #about {
